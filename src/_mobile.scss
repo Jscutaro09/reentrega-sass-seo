@@ -1,0 +1,50 @@
+@media(max-width: 700px){
+
+#mainheader {
+  height: 100vh;
+
+} 
+
+#navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .logo {
+    float: none;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    height: 100px;
+  }
+  ul {
+    float: none;
+    padding-left: 50px;
+    text-transform: uppercase;
+
+  } 
+} 
+
+#showcase {
+  padding: 20px 0;
+  .showcase-row {
+    flex-wrap: wrap;
+    &-txt{
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    &-img {
+      padding-left: 0px;
+    } 
+    img{
+        width: 100%;
+    }
+  }
+} 
+
+#mainfooter {
+  background: $primary-color;
+  text-align: center;
+  padding:30px;
+}
+}
